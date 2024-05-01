@@ -1,0 +1,64 @@
+.transacion-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+  background: #212121;
+  color: whitesmoke;
+  align-items: center;
+  color: #212121;
+}
+.transacion-container .transaction-header {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+}
+.transacion-container .transaction-header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+}
+.transacion-container .transaction-header .show-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 35%;
+  height: 350px;
+  background-color: rgb(208, 219, 230);
+  padding: 10px 5px;
+}
+
+.transacion-container .transaction-header div h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.transacion-container .transaction-header div h3 h4 {
+  margin-left: 10px;
+}
+
+.info-container {
+  padding: 10px;
+}
+.info-container h3 {
+  margin: 10px;
+}
+.dialog-container {
+  padding: 0 10px;
+  display: flex;
+  width: 100%;
+}
+.dialog-container .result-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.balance-date-container > * {
+  margin: 10px 0;
+}

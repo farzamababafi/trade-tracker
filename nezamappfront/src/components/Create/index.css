@@ -1,0 +1,101 @@
+.user-create-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #212121;
+}
+.user-create-component .user-create-container {
+  width: 75%;
+  height: 75vh;
+  background-color: rgb(208, 219, 230);
+  border-radius: 10px;
+  display: flex;
+}
+
+.user-create-component .user-create-container .create-container {
+  height: 100%;
+  width: 40%;
+  border-right: #212121 solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px;
+}
+.user-create-component
+  .user-create-container
+  .create-container
+  .input-container {
+  display: flex;
+  flex-direction: column;
+}
+.user-create-component
+  .user-create-container
+  .create-container
+  .input-container
+  > * {
+  margin: 10px;
+}
+.user-create-component
+  .user-create-container
+  .create-container
+  .number-input-container {
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  flex-direction: "column";
+}
+
+.user-create-component
+  .user-create-container
+  .create-container
+  .number-input-container
+  > * {
+  margin: 10px;
+}
+.user-create-component .user-create-container .user-container {
+  height: 100%;
+  width: 60%;
+  overflow-y: scroll;
+}
+.user-create-component
+  .user-create-container
+  .user-container::-webkit-scrollbar {
+  background-color: rgb(208, 219, 230);
+  border-radius: 30px;
+}
+.user-create-component
+  .user-create-container
+  .user-container::-webkit-scrollbar-thumb {
+  background-color: #21212167;
+  border-radius: 30px;
+}
+.user-create-component .user-create-container .user-container .users {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.user-create-component .user-create-container .user-container .users > * {
+  margin: 10px;
+}
+.chip-container {
+  width: 280px;
+  background-color: #212121d1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: solid #fff;
+  color: #fff;
+}
+.chip-container > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(208, 219, 230);
+}
